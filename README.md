@@ -178,7 +178,11 @@ Scripts are numbered to reflect execution order.
 
 ### Data Source
 
-Download CMS Synthetic Medicare data (Synthea RIF format) and place all CSV files in `C:/Temp/cms_medicare/`:
+Data is publicly available from the CMS Open Data Portal no registration required:
+
+**[Synthetic Medicare Enrollment, Fee-for-Service Claims, and Prescription Drug Event](https://data.cms.gov/collection/synthetic-medicare-enrollment-fee-for-service-claims-and-prescription-drug-event)**
+
+This is a Synthea-generated dataset of realistic-but-not-real Medicare claims in CMS RIF format the same structure used in real Medicare research files. Download the ZIP archives, extract, and place all CSV files in `C:/Temp/cms_medicare/`:
 
 - `beneficiary_2015.csv` through `beneficiary_2025.csv`
 - `inpatient.csv`, `outpatient.csv`, `carrier.csv`, `dme.csv`, `snf.csv`, `hospice.csv`, `hha.csv`

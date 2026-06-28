@@ -1,0 +1,23 @@
+# Data files (large, publicly available from CMS)
+*.csv
+*.txt
+
+# Logs
+*_log.txt
+qa_results.txt
+
+# PowerShell utility scripts
+*.ps1
+
+# Power BI (binary, not version-controllable as text)
+*.pbix
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# OS
+.DS_Store
+Thumbs.db
